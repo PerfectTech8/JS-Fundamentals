@@ -1,13 +1,12 @@
 
 const arg = process.argv[2];
-const count = parseInt(arg, 10);
+const count = parseInt(arg);
 
-if (isNaN(count)) { 
+if(isNaN(count)) {
     console.log("Missing number of occurrences");
-}else {
-    const messages = Array(count).fill("C is fun");
-    for (const msg of messages) {
-        console.log(msg);
+}else{
+    for(let i = 0; i < count; i++){
+        console.log("C is fun");
     }
 }
 
@@ -22,6 +21,23 @@ if (isNaN(count)) {
 
 
 
+
+
+
+
+
+
+// const arg = process.argv[2];
+// const count = parseInt(arg, 10);
+
+// if (isNaN(count)) { 
+//     console.log("Missing number of occurrences");
+// }else {
+//     const messages = Array(count).fill("C is fun");
+//     for (const msg of messages) {
+//         console.log(msg);
+//     }
+// }
 
 
 
