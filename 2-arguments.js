@@ -1,17 +1,17 @@
 
-// const forPractice = function(){
-//     console.log("No argument");
-// }
-// forPractice();
+const forCoding = function(){
+    console.log("No argument");
+}
+forCoding();
 
- const forAlx = function(name){
+ const forSchool = function(name){
      console.log("Argument found");
 
 }
-forAlx("Best");
+forSchool("Best");
 
-//  const forFrontend = function(name, where, vehicle){
-//      console.log("Arguments found");
+ const forFront = function(name, where, vehicle){
+     console.log("Arguments found");
 
-//  }
-//  forFrontend("Best", "School", "Benz");
+ }
+ forFront("Best", "School", "Benz");
