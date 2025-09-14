@@ -10,6 +10,6 @@ if (isNaN(size)) {
         for (let j = 0; j < size; j++){
             line += "x";
         }
-        console.log(line);
+        console.log(line)
     }
 }
