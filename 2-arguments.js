@@ -1,14 +1,14 @@
 
-const forCoding = function(){
-    console.log("No argument");
-}
-forCoding();
-
-//  const forSchool = function(name){
-//      console.log("Argument found");
-
+// const forCoding = function(){
+//     console.log("No argument");
 // }
-// forSchool("Best");
+// forCoding();
+
+ const forSchool = function(name){
+     console.log("Argument found");
+
+}
+forSchool("Best");
 
 //  const forFront = function(name, where, vehicle){
 //      console.log("Arguments found");
