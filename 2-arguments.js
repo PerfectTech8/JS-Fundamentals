@@ -4,14 +4,14 @@ const forPractice = function(){
 }
 forPractice();
 
- const forAlx = function(name){
-     console.log("Argument found");
+//  const forAlx = function(name){
+//      console.log("Argument found");
 
-}
- forAlx("Best");
+// }
+//  forAlx("Best");
 
- const forFrontend = function(name, where, vehicle){
-     console.log("Arguments found");
+//  const forFrontend = function(name, where, vehicle){
+//      console.log("Arguments found");
 
- }
- forFrontend("Best", "School", "Benz");
+//  }
+//  forFrontend("Best", "School", "Benz");
