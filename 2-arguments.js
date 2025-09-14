@@ -2,16 +2,16 @@
 // const forPractice = function(){
 //     console.log("No argument");
 // }
-//forPractice();
+// forPractice();
 
 //  const forAlx = function(name){
-//      console.log(name + " Argument found");
+//      console.log("Argument found");
 
 // }
 //  forAlx("Best");
 
- const forFrontend = function(name, where){
-     console.log(name + " " + where + " Arguments found");
+ const forFrontend = function(name, where, vehicle){
+     console.log("Arguments found");
 
  }
- forFrontend("Best", "School");
+ forFrontend("Best", "School", "Benz");
