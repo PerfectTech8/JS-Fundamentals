@@ -20,26 +20,26 @@
 //forSchool("Best");
 
 
-// const args = process.argv.slice(2);
-// if (args.lenght === 0){
-//     console.log("No argument");
-
-// }else if (args.lenth === 1){
-//     console.log("Argument found")
-
-// }else if (args.lenghth === 3){
-//     console.log("Arguments found")
-// }
-
-
-
-
-if (process.argv.length < 3){
+const args = process.argv.slice(2);
+if (args.length === 0){
     console.log("No argument");
-}
-if(process.argv.length === 3){
-    console.log("Argument found");
-}
-if(process.argv.length > 3){
+
+}else if (args.length === 1){
+    console.log("Argument found ");
+ 
+}else{
     console.log("Arguments found");
 }
+
+
+
+
+// if (process.argv.length < 3){
+//     console.log("No argument");
+// }
+// if(process.argv.length === 3){
+//     console.log("Argument found");
+// }
+// if(process.argv.length > 3){
+//     console.log("Arguments found");
+// }
