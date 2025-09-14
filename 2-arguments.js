@@ -10,8 +10,8 @@
 // }
 // forSchool("Best");
 
- const forFront = function(name, where, vehicle){
-     console.log("Arguments found");
+//  const forFront = function(name, where, vehicle){
+//      console.log("Arguments found");
 
- }
- forFront("Best", "School", "Benz");
+//  }
+//  forFront("Best", "School", "Benz");
