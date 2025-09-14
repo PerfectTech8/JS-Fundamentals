@@ -4,14 +4,14 @@ const forCoding = function(){
 }
 forCoding();
 
- const forSchool = function(name){
-     console.log("Argument found");
+//  const forSchool = function(name){
+//      console.log("Argument found");
 
-}
-forSchool("Best");
+// }
+// forSchool("Best");
 
- const forFront = function(name, where, vehicle){
-     console.log("Arguments found");
+//  const forFront = function(name, where, vehicle){
+//      console.log("Arguments found");
 
- }
- forFront("Best", "School", "Benz");
+//  }
+//  forFront("Best", "School", "Benz");
